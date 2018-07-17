@@ -1,0 +1,38 @@
+{
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wx7420f3d2a0ff5c7c",
+	"projectname": "TEST",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "顶部入口",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": "1001"
+				}
+			]
+		}
+	}
+}

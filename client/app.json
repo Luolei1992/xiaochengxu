@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/button/button",
+    "pages/map/map",
+    "pages/keepVoice/keepVoice"
+  ],
+  "window":{
+    "backgroundColor":"#000",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "selectedColor":"#007AFF",
+      "iconPath":"./pages/index/user-unlogin.png",
+      "selectedIconPath":"./pages/index/user-unlogin.png"
+    }, 
+    {
+      "pagePath": "pages/button/button",
+      "text": "按钮"
+    },
+    {
+      "pagePath": "pages/map/map",
+      "text": "地图"
+    },
+    {
+      "pagePath": "pages/keepVoice/keepVoice",
+      "text": "录音"
+    }
+   ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug":true
+}

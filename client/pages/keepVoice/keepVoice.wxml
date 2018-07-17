@@ -1,0 +1,6 @@
+
+<button bindtap="start">录音开始</button>
+<button bindtap="stop">录音结束</button>
+<!-- <button bindtap="setPlain">点击设置以上按钮plain属性</button>
+<button bindtap="setPlain">点击设置以上按钮plain属性</button>
+<button bindtap="setPlain">点击设置以上按钮plain属性</button> -->
