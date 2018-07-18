@@ -1,0 +1,16 @@
+<template name="tabBar">
+   <i-tab-bar current="{{ curr.current }}" bindchange="{{curr.fun}}" fixed="true">
+      <navigator url="../index/index" open-type="switchTab">
+         <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="首页"></i-tab-bar-item>
+      </navigator>
+      <navigator url="../button/button" open-type="switchTab">
+         <i-tab-bar-item key="group" icon="group" current-icon="group_fill" title="按钮"></i-tab-bar-item>
+      </navigator>
+      <navigator url="../map/map" open-type="switchTab" hover-class="className">
+         <i-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" count="3" title="位置"></i-tab-bar-item>
+      </navigator>
+      <navigator url="../keepVoice/keepVoice" open-type="switchTab" hover-class="className">
+         <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" dot title="录音"></i-tab-bar-item>
+      </navigator>
+   </i-tab-bar>
+</template>

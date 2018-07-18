@@ -1,4 +1,6 @@
 var types = ['default', 'primary', 'warn']
+var template = require('../../footer/footer.js');
+
 var pageObject = {
   data: {
     defaultSize: 'default',
@@ -28,6 +30,15 @@ var pageObject = {
     console.log(e.detail.userInfo)
     console.log(e.detail.rawData)
   },
+   onLoad: function () {
+      template.tabbar("group", this)
+   },
+   statechange(e) {
+      console.log('live-player code:', e.detail.code)
+    },
+    error(e) {
+        console.error('live-player error:', e.detail.errMsg)
+    }
 }
 
 for (var i = 0; i < types.length; ++i) {

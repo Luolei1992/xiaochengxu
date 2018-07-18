@@ -1,17 +1,25 @@
+<import src="../../footer/footer.wxml"/>
+   <template is="tabBar"  data="{{curr:bindData.curr}}"/>
+
 <view class="container">
+   <i>小程序测试</i>
+   <i-button type="primary" bind:click="handleClick">这是一个按钮</i-button>
+
+   <navigator url="../button/button">不能跳转，需要用switchTab</navigator>
    <view class="group">
-      <block wx:for="{{iconSize}}">
+      <block wx:for="{{iconSize}}" wx:key="{{index}}">
          <icon type="success" size="{{item}}" />
       </block>
    </view>
    <view class="group">
-      <block wx:for="{{iconType}}">
+      <block wx:for="{{iconType}}" wx:key="{{index}}">
          <icon type="{{item}}" size="40" />
       </block>
    </view>
    <view class="group">
-      <block wx:for="{{iconColor}}">
+      <block wx:for="{{iconColor}}" wx:key="{{index}}">
          <icon type="success" size="40" color="{{item}}" />
       </block>
    </view>
+   
 </view>

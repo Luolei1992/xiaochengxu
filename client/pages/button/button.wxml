@@ -10,3 +10,8 @@
 <button open-type="contact">进入客服会话</button>
 <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
 <button open-type="openSetting">打开授权设置页</button>
+
+<import src="../../footer/footer.wxml"/>
+<template is="tabBar"  data="{{curr:bindData.curr}}"/>
+
+<live-player src="https://domain/pull_stream" mode="RTC" autoplay bindstatechange="statechange" binderror="error" style="width: 300px; height: 225px;" />

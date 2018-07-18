@@ -1,0 +1,12 @@
+{
+   "backgroundColor": "#000",
+   "backgroundTextStyle": "light",
+   "navigationBarBackgroundColor": "#fff000",
+   "navigationBarTitleText": "Wafer Quick Start",
+   "navigationBarTextStyle": "black",
+   "usingComponents": {
+      "i-button": "../../dist/button/index",
+      "i-tab-bar": "../../dist/tab-bar/index",
+      "i-tab-bar-item": "../../dist/tab-bar-item/index"
+   }
+}
